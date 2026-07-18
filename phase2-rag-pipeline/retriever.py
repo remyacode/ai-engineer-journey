@@ -6,9 +6,19 @@ def clean_words(text):
     for punct in string.punctuation:
         text = text.replace(punct, "")
     return set(text.split())
+SYNONYMS = {
+    "ai": ["artificial", "intelligence"],
+}
+
+def expand_words(words):
+    expanded = set(words)
+    for word in words:
+        if word in SYNONYMS:
+            expanded.update(SYNONYMS[word])
+    return expanded
 
 def retrieve(query, documents=DOCUMENTS):
-    query_words = clean_words(query)    
+    query_words = expand_words(clean_words(query))  
     best_doc = None
     best_score = 0
     
