@@ -46,3 +46,10 @@ def print_results(results):
 if __name__ == "__main__":
     results = run_evaluation()
     print_results(results)
+    with open("eval_results.txt", "w") as f:
+        for r in results:
+            f.write(f"[{'PASS' if r['passed'] else 'FAIL'}] {r['question']}\n")
+            f.write(f"  Expected: {r['expected']}\n")
+            f.write(f"  Got: {r['answer']}\n\n")
+        passed_count = sum(1 for r in results if r['passed'])
+        f.write(f"Accuracy: {passed_count}/{len(results)} ({passed_count/len(results)*100:.1f}%)\n")
