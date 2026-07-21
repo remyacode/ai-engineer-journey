@@ -1,0 +1,51 @@
+Q: Who created Python?
+A: Guido van Rossum
+VERDICT: FAITHFUL
+REASON: The answer directly states the creator of Python, which is explicitly mentioned in the context.
+
+Q: What year was the transformer architecture introduced?
+A: The transformer architecture was introduced in 2017.
+VERDICT: FAITHFUL
+REASON: The answer directly states the year 2017, which is explicitly mentioned in the provided context as the introduction year of the transformer architecture.
+
+Q: Who created Git?
+A: Linus Torvalds
+VERDICT: FAITHFUL
+REASON: The answer directly states the creator of Git as mentioned in the provided context.
+
+Q: What does GPT stand for?
+A: Generative Pre-trained Transformer.
+VERDICT: FAITHFUL
+REASON: The answer directly quotes the definition provided in the context.
+
+Q: What year was the first iPhone released?
+A: 2007
+VERDICT: FAITHFUL
+REASON: The answer directly states the release year as found in the context.
+
+Q: Who developed PyTorch?
+A: PyTorch was developed primarily by Facebook's AI Research lab (FAIR).
+VERDICT: FAITHFUL
+REASON: The answer is an exact restatement of the provided context.
+
+Q: Who coined the term artificial intelligence?
+A: John McCarthy
+VERDICT: FAITHFUL
+REASON: The answer directly states the name mentioned in the context as the coiner of artificial intelligence.
+
+Q: What year was Kubernetes released as open source?
+A: 2014
+VERDICT: FAITHFUL
+REASON: The context explicitly states that Kubernetes was released as open source in 2014, directly supporting the answer.
+
+Q: Who published the RSA encryption algorithm?
+A: Rivest, Shamir, and Adleman.
+VERDICT: FAITHFUL
+REASON: The answer directly names the individuals stated in the context as the publishers of the RSA algorithm.
+
+Q: Who created React?
+A: Jordan Walke
+VERDICT: FAITHFUL
+REASON: The answer directly states the creator of React, which is explicitly mentioned in the context.
+
+Faithfulness rate: 10/10 (100.0%)
