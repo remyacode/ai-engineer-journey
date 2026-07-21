@@ -1,0 +1,41 @@
+[PASS] Who created Python?
+  Expected: Guido van Rossum
+  Got: Guido van Rossum
+
+[PASS] What year was the transformer architecture introduced?
+  Expected: 2017
+  Got: The transformer architecture was introduced in 2017.
+
+[PASS] Who created Git?
+  Expected: Linus Torvalds
+  Got: Linus Torvalds
+
+[PASS] What does GPT stand for?
+  Expected: Generative Pre-trained Transformer
+  Got: Generative Pre-trained Transformer.
+
+[PASS] What year was the first iPhone released?
+  Expected: 2007
+  Got: 2007
+
+[PASS] Who developed PyTorch?
+  Expected: Facebook's AI Research lab
+  Got: PyTorch was developed primarily by Facebook's AI Research lab (FAIR).
+
+[PASS] Who coined the term artificial intelligence?
+  Expected: John McCarthy
+  Got: John McCarthy
+
+[PASS] What year was Kubernetes released as open source?
+  Expected: 2014
+  Got: 2014
+
+[PASS] Who published the RSA encryption algorithm?
+  Expected: Rivest, Shamir, and Adleman
+  Got: Rivest, Shamir, and Adleman.
+
+[PASS] Who created React?
+  Expected: Jordan Walke
+  Got: Jordan Walke
+
+Accuracy: 10/10 (100.0%)
